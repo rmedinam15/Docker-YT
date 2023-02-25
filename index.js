@@ -1,6 +1,9 @@
 import express from 'express'
 import mongoose from 'mongoose'
 
+//var express = require('express');
+//var mongoose = require('mongoose');
+
 const Animal = mongoose.model('Animal', new mongoose.Schema({
   tipo: String,
   estado: String,
@@ -8,7 +11,7 @@ const Animal = mongoose.model('Animal', new mongoose.Schema({
 
 const app = express()
 
-mongoose.connect('mongodb://nico:password@monguito:27017/miapp?authSource=admin')
+mongoose.connect('mongodb://rmedina:password@monguito:27017/miapp?authSource=admin')
 
 app.get('/', async (_req, res) => {
   console.log('listando... chanchitos...')

@@ -1,7 +1,7 @@
 {
   "name": "mongoapp",
   "version": "1.0.0",
-  "description": "",
+  "description": "Curso completo gratis aca: https://www.youtube.com/watch?v=4Dko5W96WHg",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -10,7 +10,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "4.18.1",
-    "mongoose": "6.4.1"
-  }
+    "express": "^4.18.2",
+    "mongoose": "^6.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmedinam15/Docker-YT.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rmedinam15/Docker-YT/issues"
+  },
+  "homepage": "https://github.com/rmedinam15/Docker-YT#readme"
 }
